@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
           locale: "en",
           images: [
             {
-              url: "https://myria.com/images/hero.png",
+              url: "https://lehuuvietanh.com/images/hero.png",
               alt: "Lê Hữu Việt Anh",
               type: "image/png",
             },
