@@ -1,21 +1,13 @@
 import clsx from "clsx";
 
 type SectionProps = {
-  maxContentWidth: number;
   className?: string;
 };
-const Section: React.FC<SectionProps> = ({
-  maxContentWidth,
-  children,
-  className,
-}) => {
+const Section: React.FC<SectionProps> = ({ children, className }) => {
   return (
     <section
-      style={{
-        maxWidth: maxContentWidth,
-      }}
       className={clsx(
-        "mx-auto border-4 border-black relative shadow-section",
+        "max-w-content mx-auto border-4 border-black relative shadow-section",
         className
       )}
     >
