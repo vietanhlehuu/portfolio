@@ -36,7 +36,7 @@ const Blog: React.FC<Props> = ({ posts }) => {
             </React.Fragment>
           ))}
         </div>
-        <span className="flex w-6 mx-auto">
+        <span className="flex w-6 mx-auto mt-6">
           <BeakerIcon />
         </span>
         <a

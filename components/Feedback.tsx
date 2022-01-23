@@ -60,7 +60,7 @@ const Feedback: React.FC = () => {
                   <p className="text-base">Người gửi</p>
                   <input
                     name="name"
-                    className="p-2 mt-2 border border-black"
+                    className="max-w-full p-2 mt-2 border border-black "
                     defaultValue="Ẩn danh"
                     required
                   />
