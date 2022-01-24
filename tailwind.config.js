@@ -51,6 +51,17 @@ module.exports = {
             black 75%,
             black 100%
         )`,
+        "letter-submit": `linear-gradient(
+          -45deg,
+          white,
+          white 25%,
+          rgb(234,179,8) 25%,
+          rgb(234,179,8) 50%,
+          white 50%,
+          white 75%,
+          rgb(234,179,8) 75%,
+          rgb(234,179,8) 100%
+      )`,
         "letter-success": `linear-gradient(
             -45deg,
             white,

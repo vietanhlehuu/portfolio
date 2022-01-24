@@ -51,6 +51,7 @@ const Feedback: React.FC = () => {
               {
                 "!bg-letter-success": state == "success",
                 "!bg-letter-error": state == "error",
+                "!bg-letter-submit": state == "submit",
               }
             )}
           >
